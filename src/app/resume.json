@@ -1,44 +1,42 @@
 {
-  "name": "Your name",
-  "tagline": "A tag line describing what you are interested in doing.",
+  "name": "Harley Guan",
+  "tagline": "I am computer science major and looking for a position in Software Engineering.",
   "headshot": "images/headshot.jpg",
   "contact": {
-    "address": "123 Main St, City, ST 00000",
-    "phone": "(123) 456-7890",
-    "email": "your.email@example.com",
-    "linkedin": "https://www.linkedin.com/in/yourprofile"
+    "address": "4981 Weathervane DR, Alpharetta, GA, 30022",
+    "phone": "(770) 866-3611",
+    "email": "2056435787haizhiguan@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/haizhi-guan-3933aa33b/"
   },
   "education": {
-    "school": "University Name",
-    "gpa": "4.0",
-    "degree": "Bachelor of Science",
-    "graduation_date": "May 2025"
+    "school": "University of Georgia",
+    "gpa": "3.66",
+    "degree": "Bachelor of Computer Science",
+    "graduation_date": "May 2026"
   },
   "honors_and_awards": [
-    { "honor": "Dean's List", "date": "2023" },
-    { "honor": "Scholarship Award", "date": "2022" }
+    { "honor": "Dean's List", "date": "2024" },
+    { "honor": "Scholarship Award", "date": "2022-2026" }
   ],
   "skills": ["HTML", "Java", "JavaScript", "React"],
   "leadership_and_experience": [
-    { "position": "Intern at Company", "date": "2023–Present", "link": "https://company.com" },
-    { "position": "Volunteer at Org", "date": "2022–2023" }
+    { "position": "Intern at Company", "date": "2023–Present", "link": "https://www.epic.com/" }
   ],
   "projects": [
     {
-      "title": "Portfolio Website",
-      "image": "images/img_avatar.png",
-      "descr": ["Built with HTML/CSS", "Deployed on Netlify"]
+      "title": "Online Cinema Booking System",
+      "image": "images/cinema.jpg",
+      "descr": ["Utilitzed Java, React, and node.js for developing a fully functional online booking website",
+        "Implemented seat selection, user authentication, and simulated payment processing systems"
+]
     },
     {
-      "title": "Todo App",
-      "image": "images/img_avatar.png",
-      "descr": ["Built in React", "Used localStorage"]
-    },
-    {
-      "title": "Resume Builder",
-      "image": "images/img_avatar.png",
-      "descr": ["JSON to HTML conversion", "Practice with DOM"]
+      "title": "Online Portfolio Website",
+      "image": "images/portfolio.jpg",
+      "descr": ["Utilitzed Java, React, and sql database",
+        "Implemented viewing stock price, buy and sell functionalities"]
     }
+    
   ]
 }
 

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import ContactPage from "@/src/app/contact/page";
+import ContactPage from "@/app/contact/page";
 
 describe("Part 2 – Contact page", () => {
   it("Nav shows About link to /", async () => {

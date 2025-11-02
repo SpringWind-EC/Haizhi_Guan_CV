@@ -1,43 +1,62 @@
 import resumeData from "./resume.json";
 import type { Resume } from "@/types/resume";
-import Nav from "./components/Nav";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import EducationList from "./components/Education";
-import Honors from "./components/Honors";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import Nav from "@/app/components/Nav";
+import Header from "@/app/components/Header";
+import Section from "@/app/components/Section";
+import EducationList from "@/app/components/Education";
+import Honors from "@/app/components/Honors"; 
+import Skills from "@/app/components/Skills";
+import Footer from "@/app/components/Footer";
+import ExperienceList from "@/app/components/Experience";
+import Projects from "@/app/components/Projects";
 
 const resume = resumeData as Resume;
 
 export default function Home() {
-  const { name, tagline, headshot, contact, education, honors_and_awards, skills, leadership_and_experience, projects } = resume;
+  const {
+    name,
+    tagline,
+    headshot,
+    contact,
+    education,
+    honors_and_awards,
+    skills,
+    leadership_and_experience,
+    projects,
+  } = resume;
 
   return (
     <main>
-      <Nav />
-      <Header/>
-       <Section >
-        <EducationList />
+      <Nav name={name}/>
+
+
+      <Header
+        name={name}
+        tagline={tagline}
+        headshot={headshot}
+        contact={contact}
+      />
+
+      <Section title="Education">
+        <EducationList education={education} />
       </Section>
 
-      <Section >
-        <Honors />
+      <Section title="Honors & Awards">
+        <Honors honors={honors_and_awards} />
       </Section>
 
-      <Section >
-        <Skills  />
+      <Section title="Skills">
+        <Skills skills={skills} />
       </Section>
 
-      <Section >
-        <Experience />
+      <Section title="Leadership and Experience">
+        <ExperienceList experiences={leadership_and_experience} />
       </Section>
 
-       <Section >
-        <Projects />
+      <Section title="Projects">
+        <Projects projects={projects} />
       </Section>
+
       <Footer />
     </main>
   );
