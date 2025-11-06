@@ -18,7 +18,7 @@ export default function ContactPage() {
         <h1>Contact Me</h1>
 
         <div className="contact-info">
-          <p><strong>Address:</strong> {address}</p>
+          <p><strong>Address:</strong>  {address}</p>
           <p><strong>Phone:</strong> {phone}</p>
           <p>
             <strong>Email:</strong>{" "}
