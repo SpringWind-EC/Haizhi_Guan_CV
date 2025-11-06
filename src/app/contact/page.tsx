@@ -12,7 +12,7 @@ export default function ContactPage() {
 
   return (
     <main>
-      <Nav name={name} context="contact" />
+      <Nav name={name}  context="contact" />
 
       <section className="one-col">
         <h1>Contact Me</h1>
