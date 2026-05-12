@@ -21,7 +21,7 @@ export default function Header({ name, tagline, headshot, contact }: HeaderProps
       />
       <h1>{name}</h1>
       <p>{tagline}</p>
-
+      
       <div>
         <p>
           Email: <a href={`mailto:${contact.email}`}>{contact.email}</a>

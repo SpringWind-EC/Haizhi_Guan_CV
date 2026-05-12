@@ -9,7 +9,7 @@ type ExperienceListProps = {
 export default function ExperienceList({ experiences }: ExperienceListProps) {
   return (
     <section className="experience-section">
-
+      {/*
       <dl className="experience-list">
         {experiences.map((exp, index) => (
           <div key={index} className="experience-card">
@@ -28,6 +28,7 @@ export default function ExperienceList({ experiences }: ExperienceListProps) {
           </div>
         ))}
       </dl>
+      */}
     </section>
   );
 }

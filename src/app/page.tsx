@@ -49,10 +49,6 @@ export default function Home() {
         <Skills skills={skills} />
       </Section>
 
-      <Section title="Leadership and Experience">
-        <ExperienceList experiences={leadership_and_experience} />
-      </Section>
-
       <Section title="Projects">
         <Projects projects={projects} />
       </Section>

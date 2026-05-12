@@ -1,42 +1,103 @@
 {
-  "name": "Harley Guan",
-  "tagline": "I am computer science major and looking for a position in Software Engineering.",
+  "name": "Haizhi Guan",
+  "tagline": "Software Engineering student with experience in Java backend development, full-stack engineering, and scalable system design.",
   "headshot": "images/headshot.jpg",
   "contact": {
-    "address": "4981 Weathervane DR, Alpharetta, GA, 30022",
+    "address": "4981 Weathervane DR, Alpharetta, GA 30022",
     "phone": "(770) 866-3611",
     "email": "2056435787haizhiguan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/haizhi-guan-3933aa33b/"
   },
+  "summary": "Software Engineering student with strong experience in Java backend development, system design, and full-stack engineering. Passionate about cloud computing and distributed systems, with a focus on building scalable, reliable applications. Proven ability to improve performance, streamline user workflows, and lead teams in agile environments.",
   "education": {
     "school": "University of Georgia",
-    "gpa": "3.66",
+    "location": "Athens, GA",
+    "gpa": "3.66 / 4.00",
     "degree": "Bachelor of Computer Science",
-    "graduation_date": "May 2026"
+    "graduation_date": "May 2026",
+    "coursework": [
+      "Software Engineering",
+      "Database Management",
+      "Web Programming"
+    ]
   },
   "honors_and_awards": [
-    { "honor": "Dean's List", "date": "2024" },
-    { "honor": "Scholarship Award", "date": "2022-2026" }
-  ],
-  "skills": ["HTML", "Java", "JavaScript", "React"],
-  "leadership_and_experience": [
-    { "position": "Intern at Company", "date": "2023–Present", "link": "https://www.epic.com/" }
-  ],
-  "projects": [
     {
-      "title": "Online Cinema Booking System",
-      "image": "images/cinema.jpg",
-      "descr": ["Utilitzed Java, React, and node.js for developing a fully functional online booking website",
-        "Implemented seat selection, user authentication, and simulated payment processing systems"
-]
+      "honor": "Dean's List",
+      "date": "Fall 2024 – Spring 2025"
     },
     {
-      "title": "Online Portfolio Website",
-      "image": "images/portfolio.jpg",
-      "descr": ["Utilitzed Java, React, and sql database",
-        "Implemented viewing stock price, buy and sell functionalities"]
+      "honor": "Hope Scholarship",
+      "date": "2022 – Present"
     }
-    
+  ],
+  "skills": {
+    "programming": [
+      "Java",
+      "C",
+      "Python",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "web_frameworks": [
+      "React",
+      "Node.js",
+      "Next.js",
+      "Spring Boot"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "tools_concepts": [
+      "Git",
+      "REST APIs",
+      "Object-Oriented Programming",
+      "Agile Development",
+      "Problem Solving"
+    ],
+    "languages": [
+      "English (Fluent)",
+      "Chinese (Fluent)"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Cinema eBooking System",
+      "role": "Team Leader",
+      "date": "January 2025 – May 2025",
+      "github": "https://github.com/andargachewtadesse/cinema-ebooking-system",
+      "image": "images/cinema.jpg",
+      "descr": [
+        "Built a full-stack cinema booking system using React, Node.js, and Java, supporting 1000+ mock users during testing",
+        "Developed an optimized seat-selection UI that improved user selection speed by approximately 40%",
+        "Integrated card payment logic and booking confirmation workflows, reducing checkout steps from 7 to 4"
+      ]
+    },
+    {
+      "title": "Personal Investment Portfolio Manager",
+      "role": "Team Leader",
+      "date": "January 2025 – May 2025",
+      "github": "https://github.com/firasastwani/DBMS-Personal-Investment-Portfolio-Manager",
+      "image": "images/portfolio.jpg",
+      "descr": [
+        "Built a full-stack online portfolio manager system using React, Node.js, and Java for tracking stock investments",
+        "Designed and implemented user authentication, portfolio tracking, and data visualization features",
+        "Created interactive dashboards enabling users to visualize trends with sub-200ms real-time refresh rates"
+      ]
+    },
+    {
+      "title": "Nature Explorer",
+      "role": "GitHub Manager",
+      "date": "October 2025 – November 2025",
+      "github": "https://github.com/CSCI4300-Web-Programming/group-project-live",
+      "image": "images/nature.jpg",
+      "descr": [
+        "Developed a web platform allowing users to browse 150+ trails and parks in Athens, GA",
+        "Built a MongoDB-powered backend with startup time under 2 seconds",
+        "Implemented a responsive frontend using React, TypeScript, and Tailwind CSS",
+        "Designed APIs and periodically fetched trail and park data using JavaScript"
+      ]
+    }
   ]
 }
-

@@ -33,7 +33,8 @@ export default function ContactPage() {
             </Link>
           </p>
         </div>
-
+        
+        {/* 
         <form
           action={`https://formsubmit.co/${email}`}
           method="post"
@@ -53,6 +54,7 @@ export default function ContactPage() {
           </div>
           <button type="submit">Send</button>
         </form>
+        */}
       </section>
 
       <Footer />
