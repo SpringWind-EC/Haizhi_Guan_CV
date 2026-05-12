@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function Footer() {
   const { name, contact } = resumeData;
-  const { address, phone, email, linkedin } = contact;
+  const { address, phone, email, linkedin} = contact;
 
   return (
     <footer className="footer">
@@ -19,6 +19,7 @@ export default function Footer() {
       <p>
         LinkedIn: <Link href={linkedin} target="_blank" rel="noopener noreferrer">{linkedin}</Link>
       </p>
+    
       <p>Phone: {phone}</p>
       <p>Address: {address}</p>
     </footer>

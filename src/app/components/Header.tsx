@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Image from "next/image";
 import type { Contact } from "@/types/resume";
 
@@ -23,6 +24,9 @@ export default function Header({ name, tagline, headshot, contact }: HeaderProps
       <p>{tagline}</p>
       
       <div>
+        <p>
+        Github: <Link href={contact.github_link} target="_blank" rel="noopener noreferrer">{contact.github_link}</Link>
+        </p>
         <p>
           Email: <a href={`mailto:${contact.email}`}>{contact.email}</a>
         </p>

@@ -32,6 +32,7 @@ export type Contact = {
   phone: string;
   email: string;
   linkedin: string;
+  github_link: string;
 };
 
 export type Skills = {

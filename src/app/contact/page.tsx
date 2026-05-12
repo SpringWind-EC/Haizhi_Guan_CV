@@ -32,6 +32,13 @@ export default function ContactPage() {
               {linkedin}
             </Link>
           </p>
+
+          <p>
+            <strong>GitHub:</strong>{" "}
+            <Link href={contact.github_link} target="_blank" className="contact-link">
+              {contact.github_link}
+            </Link>
+          </p>
         </div>
         
         {/* 
